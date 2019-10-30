@@ -1,0 +1,13 @@
+name: LoggingExtension
+
+targets:
+  LoggingExtension_Example:
+    type: application
+    platform: iOS
+    deploymentTarget: 9.0
+    sources:
+      - LoggingExtension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.demo.LoggingExtension-Example
+        SWIFT_VERSION: 5.0
