@@ -9,3 +9,7 @@ inhibit_all_warnings!
 target "LoggingExtension_Example" do
   pod "LoggingExtension", :path => "../"
 end
+
+post_install do |installer|
+  installer.pods_project.root_object.attributes["ORGANIZATIONNAME"] = "nuomi1"
+end
