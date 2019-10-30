@@ -1,5 +1,8 @@
 name: LoggingExtension
 
+attributes:
+  ORGANIZATIONNAME: nuomi1
+
 targets:
   LoggingExtension_Example:
     type: application
