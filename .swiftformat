@@ -1,5 +1,14 @@
---exclude **/Pods
+--disable blankLinesAtStartOfScope
+
+--exclude Carthage
+--exclude DerivedData
+--exclude Example
+--exclude Pods
+--exclude R.generated.swift
+--exclude R.temp.swift
+
 --stripunusedargs closure-only
 --swiftversion 5.0
+
 --wraparguments before-first
 --wrapcollections before-first
