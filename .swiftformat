@@ -1,8 +1,8 @@
 --disable blankLinesAtStartOfScope
 
---exclude Carthage
---exclude Pods
---exclude *.generated.swift
+--exclude **/Carthage
+--exclude **/Pods
+--exclude **/*.generated.swift
 
 --stripunusedargs closure-only
 --swiftversion 5.0
