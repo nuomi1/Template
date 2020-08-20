@@ -1,14 +1,16 @@
 --disable blankLinesAtStartOfScope
 
 --exclude Carthage
---exclude DerivedData
---exclude Example
 --exclude Pods
---exclude R.generated.swift
---exclude R.temp.swift
+--exclude *.generated.swift
 
 --stripunusedargs closure-only
 --swiftversion 5.0
 
 --wraparguments before-first
+--wrapparameters before-first
 --wrapcollections before-first
+
+--funcattributes prev-line
+--typeattributes prev-line
+--varattributes prev-line
