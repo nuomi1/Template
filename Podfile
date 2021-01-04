@@ -1,13 +1,9 @@
-install! "cocoapods",
-         disable_input_output_paths: true
+platform :ios, "10.0"
 
-platform :ios, "9.0"
-use_frameworks!
-# use_modular_headers!
-inhibit_all_warnings!
+use_frameworks! :linkage => :static
 
-target "LoggingExtension_Example" do
-  pod "LoggingExtension", :path => "../"
+target "Target_Example" do
+  pod "Target", :path => "../"
 end
 
 post_install do |installer|
