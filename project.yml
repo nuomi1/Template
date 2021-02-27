@@ -1,16 +1,16 @@
-name: LoggingExtension
+name: Target
 
 attributes:
   ORGANIZATIONNAME: nuomi1
 
 targets:
-  LoggingExtension_Example:
+  Target_Example:
     type: application
     platform: iOS
     deploymentTarget: 9.0
     sources:
-      - LoggingExtension
+      - Target
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.demo.LoggingExtension-Example
+        PRODUCT_BUNDLE_IDENTIFIER: org.cocoapods.demo.Target-Example
         SWIFT_VERSION: 5.0
